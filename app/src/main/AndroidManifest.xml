@@ -31,6 +31,12 @@
             android:name=".MoreActivity"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
+            android:name=".PreviewTargetActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".PreviewRegularActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
             android:name=".FinalActivity"
             android:theme="@style/LightStatusBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />

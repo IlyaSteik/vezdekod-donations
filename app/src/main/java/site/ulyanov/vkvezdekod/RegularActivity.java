@@ -30,6 +30,11 @@ public class RegularActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void preview(View v) {
+        Intent intent = new Intent(this, PreviewRegularActivity.class);
+        startActivity(intent);
+    }
+
     public void uploadPic(View v) {
         Intent intent = new Intent();
         intent.setType("image/*");

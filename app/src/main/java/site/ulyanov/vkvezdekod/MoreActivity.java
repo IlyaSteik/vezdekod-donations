@@ -50,6 +50,11 @@ public class MoreActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void preview(View v) {
+        Intent intent = new Intent(this, PreviewTargetActivity.class);
+        startActivity(intent);
+    }
+
     public void changeDate(View v) {
         final Calendar c = Calendar.getInstance();
         mYear = c.get(Calendar.YEAR);

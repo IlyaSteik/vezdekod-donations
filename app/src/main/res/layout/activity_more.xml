@@ -165,24 +165,49 @@
 
         </ScrollView>
 
-        <Button
-            style="?android:attr/borderlessButtonStyle"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="34.5dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginBottom="24dp"
-            android:background="@drawable/blue_vk_btn"
-            android:fontFamily="@font/sfpro"
-            android:lineHeight="22dp"
-            android:text="Создать сбор"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textFontWeight="500"
-            android:textSize="17sp"
-            android:layout_alignParentBottom="true"
-            android:onClick="next"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="34.5dp"
+                android:background="@drawable/gray_vk_btn"
+                android:text="Предпросмотр"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/sfpro"
+                android:textSize="17sp"
+                android:lineHeight="22dp"
+                android:textAllCaps="false"
+                android:textFontWeight="500"
+                android:textAlignment="center"
+                style="?android:attr/borderlessButtonStyle"
+                android:onClick="preview"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/blue_vk_btn"
+                android:fontFamily="@font/sfpro"
+                android:lineHeight="22dp"
+                android:text="Создать сбор"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textFontWeight="500"
+                android:textSize="17sp"
+                android:onClick="next"/>
+
+        </LinearLayout>
+
+
     </RelativeLayout>
 </LinearLayout>

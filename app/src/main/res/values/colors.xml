@@ -8,6 +8,8 @@
     <color name="vkBtnClicked">#92b6e0</color>
     <color name="vkBtnGray">#F5F5F5</color>
     <color name="vkBtnGrayClicked">#f9f9f9</color>
+    <color name="vkBtnGray2">#efefef</color>
+    <color name="vkBtnGray2Clicked">#f5f5f5</color>
     <color name="vkBtnGreen">#4BB34B</color>
     <color name="vkBtnGreenClicked">#92d192</color>
     <color name="colorSeparator">#D7D8D9</color>
